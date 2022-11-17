@@ -1,0 +1,239 @@
+header {
+  background-color: rgb(185, 183, 246);
+  display: flex;
+  width: 100%;
+  height: 20%;
+  justify-content: space-between;
+}
+
+.minside {
+  background-image: url(min\ side\ icon.png);
+  background-size: cover;
+
+  width: 100%;
+  height: 100%;
+}
+.kurv {
+  background-image: url(../Indexhome.hmtl/kurv.png);
+  background-size: cover;
+  width: 120px;
+}
+
+.logo2 {
+  background-image: url(../Indexhome.hmtl/logo2.png);
+ background-size: cover;
+ 
+ 
+  width: 60%;
+  height: 100px;
+position: relative;
+margin-left: 550px;
+}
+.søke {
+  padding: 40px 50px;
+
+
+}
+
+main {
+    display: flex;
+    width: 700px; 
+   margin: 20px;
+   height: 1000px;
+     background-color: rgb(38, 255, 0);
+     flex-wrap: wrap;
+     justify-content: center;
+     text-align: center;
+ margin-left: 1000px;}
+.img1 {
+  background-image: url(../Indexhome.hmtl/menn\ bilde1.png);
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+}
+.img2 {
+  background-image: url(../Indexhome.hmtl/kvinne1.png);
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+}
+
+.img3 {
+  background-image: url(../Indexhome.hmtl/menn2.png);
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+}
+.img4 {
+  background-image: url(../Indexhome.hmtl/kvinne2.png);
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+}
+p {
+  color: rgb(19, 19, 21);
+  width: 300px;
+}
+footer {
+  background-color: blanchedalmond;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.facebook {
+  background-image: url(../Indexhome.hmtl/face.png);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+.instagram {
+  background-image: url(../Indexhome.hmtl/69768-logo-computer-layout-instagram-icons-png-file-hd.png);
+  background-size: cover;
+border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+fieldset {
+  background-color: rgb(21, 21, 128);
+  width: 300px;
+  height: 300px;
+  display: flex;
+
+  justify-content: space-around;
+  width: auto;
+  height: 50px;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+}
+.kontaktoss {
+  background-image: url(../Indexhome.hmtl/contect\ us.jpg);
+  background-size: cover;
+  width: 10%;
+border-radius: 50%;
+
+}
+.aboutus {
+  display: flex;
+  border: 3px solid black;
+
+  background-color: rgb(229, 155, 26);
+  width: 400px;
+  margin-left: 1200px;
+  margin-right: 300px;
+  height: 400px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: x-large;
+  padding-left: 30px;
+  padding-top: 100px;
+  margin-top: 120px;
+}
+img {
+  width: 100px;
+  padding: 10px;
+  height: 80px;
+}
+
+.hovedlogo {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  font-size: large;
+
+  color: rgb(29, 49, 9);
+}
+
+.aboutus2 {
+  width: 80%;
+  height: 500px;
+  margin-left: 350px;
+}
+.grid-items {
+  display: flex;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 300px;
+  border: 2px solid black;
+  margin-left: 70em;
+}
+section {
+  background-color: rgba(63, 19, 236, 0.787);
+
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 20%;
+  padding: 10em;
+  margin-left: 60em;
+  margin-top: 10em;
+  border-radius: 100px;
+}
+
+@media (max-width: 800px) {
+  main,
+  footer {
+    grid-template-columns: 1fr;
+  }
+}
+@media  ( min-width: 300px) {header, main{ }
+    
+ 
+    
+
+}
+
+
+
+
+
+.contaiener {
+  background-color: rgb(38, 255, 0);
+  display: grid;
+  grid-template-columns: 2fr;
+  text-align: center;
+  /* width: 800px; */
+}
+.bilde {
+  border: 4px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  
+
+
+}
+.center-main  {
+    display: flex;
+    width: 700px; 
+   margin: 20px;
+   height: 2000px;
+     background-color: rgb(38, 255, 0);
+     flex-wrap: wrap;
+     justify-content: center;
+     text-align: center;
+ margin-left: 1000px;
+
+}
+
+.bold_italic {
+  font-weight: 700;
+  font-style: italic;
+}
+.kvinne-main {
+   
+ display: flex;
+   width: 700px; 
+  margin: 20px;
+  height: 2000px;
+    background-color: rgb(38, 255, 0);
+    flex-wrap: wrap;
+    
+    text-align: center;
+margin-left: 1000px;
+}
+.Twitter  { border-radius: 50%;}
